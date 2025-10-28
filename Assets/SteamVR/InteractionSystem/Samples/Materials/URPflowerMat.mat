@@ -12,7 +12,6 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
   - _ENVIRONMENTREFLECTIONS_OFF
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
@@ -100,7 +99,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
-    - _BlendModePreserveSpecular: 1
+    - _BlendModePreserveSpecular: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -129,7 +128,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecSource: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
     - _WorkflowMode: 1
@@ -138,7 +137,7 @@ Material:
     - <noninit>: {r: 0, g: 2.018452, b: 1e-45, a: -7.580562e+31}
     - _BaseColor: {r: 1, g: 0.36764705, b: 0.36764705, a: 1}
     - _Color: {r: 1, g: 0.36764702, b: 0.36764702, a: 1}
-    - _EmissionColor: {r: 0.0078125, g: 0.0078125, b: 0.0078125, a: 1}
+    - _EmissionColor: {r: 0.00060468266, g: 0.00060468266, b: 0.00060468266, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _TintColor: {r: 0.2647059, g: 0.26977685, b: 1, a: 1}
   m_BuildTextureStacks: []
@@ -155,4 +154,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 1
+  version: 9

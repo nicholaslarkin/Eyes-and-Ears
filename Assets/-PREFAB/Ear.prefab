@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 501273955166344349}
   - component: {fileID: 8628752916655152956}
   - component: {fileID: 2458263550569960910}
+  - component: {fileID: 262908179830538110}
   m_Layer: 0
   m_Name: Ear
   m_TagString: Untagged
@@ -31,9 +32,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3770480354828031110}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.305, y: 1.05, z: -0.384}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4849, y: 2.4849, z: 2.4849}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4999198060251129953}
@@ -194,7 +195,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3770480354828031110}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4153b26428ccf041950b92c057812a3, type: 3}
   m_Name: 
@@ -214,7 +215,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
   onHandHoverEnd:
     m_PersistentCalls:
       m_Calls:
@@ -230,7 +231,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
   onAttachedToHand:
     m_PersistentCalls:
       m_Calls: []
@@ -283,6 +284,14 @@ MonoBehaviour:
   previewPoseSelection: 0
   blendingBehaviours: []
   scale: 1
+--- !u!81 &262908179830538110
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3770480354828031110}
+  m_Enabled: 1
 --- !u!1 &5501181873843230732
 GameObject:
   m_ObjectHideFlags: 0
